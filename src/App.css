@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+
+#project{
+  border:2px solid black;
+  background-color: black;
+  color: white;
+  margin: auto;
+  width: 50%;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 400px;
+  margin-bottom: 60px;
+}
+
+#about{
+  border:2px solid transparent;
+  background-color:green;
+  color: white;
+  font-weight: 400;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 400px;
+  margin-bottom: 60px;
+}
+
+#contact{
+  border:2px solid transparent;
+  background-color:goldenrod;
+  color: white;
+  margin: auto;
+  width: 50%;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 400px;
+  margin-bottom: 60px;
+}
+
+.navbar{
+  background-color: #121213;
+  border: 2px solid black;
+  padding: 40px;
+  position: fixed;
+  display: block;
+  margin-bottom: 80px;
+  height:600px;
+  top: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+button{
+  background-color:white;
+  color: black;
+  padding:10px 20px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+button:hover{
+  background-color:rgb(163, 161, 161);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
